@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:background="#fff">
+
+
+    <TextView
+        android:textStyle="italic"
+        android:padding="2dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorFragment"
+        android:background="@drawable/event_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Известување"
+        android:id="@+id/info_type"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:text="Пријавување испити за августовска сесија 2015/2016 година"
+        android:id="@+id/info_title"
+        android:layout_below="@+id/info_type"
+        android:layout_alignLeft="@+id/info_type"
+        android:layout_alignStart="@+id/info_type" />
+
+    <TextView
+        android:textColor="@color/grayyy"
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2d"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

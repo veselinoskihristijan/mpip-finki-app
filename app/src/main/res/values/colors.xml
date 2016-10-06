@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary2">#6ebde6</color>
+    <color name="colorPrimaryDark2">#46537d</color>
+
+    <color name="colorPrimary">#6DA8D6</color>
+    <color name="colorPrimaryDark">#082947</color>
+    <color name="colorAccent">#F2484B</color>
+
+    <color name="colorPrimary5">#6ebde6</color>
+    <color name="colorPrimaryDark5">#46537d</color>
+    <color name="colorAccent5">#F46B20</color>
+
+    <color name="lightGreen">#98D9D5</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorFragment">#ffffff</color>
+    <color name="listFragment">#f0f9ff</color>
+    <color name="grayyy">#c0d0df</color>
+    <color name="vezbi2">#313943</color>
+    <color name="vezbi">#46537d</color>
+    <color name="tabColor2">#071e5d</color>
+
+    <color name="tabColor">#f0f9ff</color>
+    <color name="colorTabIcon">#46537d</color>
+
+    <color name="orange">#F46B20</color>
+    <color name="YELLOW_d">#ffd812</color>
+
+
+    <item name="title" type="color">#6ebde6</item>
+    <item name="gray2" type="color">#8f96ab</item>
+    <item name="gray" type="color">#53777c</item>
+    <item name="darkblue" type="color">#26335c</item>
+    <item name="darkblue2" type="color">#263148</item>
+    <item name="skyBlueLight" type="color">#cce7ff</item>
+    <item name="skyBlueLight2" type="color">#d7ecff</item>
+    <item name="skyBlueDoubleLight" type="color">#eeeeee</item>#FFCC99
+    <item name="orangeLight" type="color">#f59f35</item>
+    <item name="blueLight" type="color">#4388A6</item>
+    <item name="green" type="color">#50eb8f</item>
+    <item name="green2" type="color">#00de5a</item>
+    <item name="RED" type="color">#ff0d00</item>
+    <item name="GRE" type="color">#00ff68</item>
+    <item name="yellow" type="color">#FFFF00</item>
+    <item name="map" type="color">#ff7900</item>
+
+
+    <color name="black">#000000</color>
+    <color name="navyBlueDark">#070b14</color>
+    <color name="navyBlueLight">#172b44</color>
+    <color name="greenBlue">#60b2c0</color>
+    <color name="greenBlue2">#60d6ea</color>
+    <color name="rose">#e31754</color>
+    <color name="silverGray">#55616f</color>
+    <color name="skin">#e1c488</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <!--
+
+        <color name="colorPrimary2">#46a6c7</color>
+    <color name="colorPrimaryDark2">#071e5d</color>
+
+    <color name="colorPrimary">#21c4e5</color>
+    <color name="colorPrimaryDark">#37435d</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#ff7900</color>
+    <color name="colorFragment">#ffffff</color>
+    <color name="listFragment">#dddde9</color>
+    <color name="vezbi">#313943</color>
+    <color name="tabColor2">#071e5d</color>
+
+    <color name="tabColor">#37435d</color>
+
+    <color name="orange">#F46B20</color>
+
+
+    <item name="title" type="color">#21c4e5</item>
+    <item name="gray2" type="color">#8f96ab</item>
+    <item name="gray" type="color">#53777c</item>
+    <item name="darkblue" type="color">#26335c</item>
+    <item name="darkblue2" type="color">#263148</item>
+    <item name="skyBlueLight" type="color">#CCCCFF</item>
+    <item name="skyBlueDoubleLight" type="color">#eeeeee</item>#FFCC99
+    <item name="orangeLight" type="color">#FFCC99</item>
+    <item name="blueLight" type="color">#4388A6</item>
+    <item name="green" type="color">#50eb8f</item>
+    <item name="green2" type="color">#57d98c</item>
+    <item name="RED" type="color">#ff0d00</item>
+    <item name="GRE" type="color">#00ff68</item>
+    <item name="yellow" type="color">#FFFF00</item>
+    <item name="map" type="color">#ff7900</item>
+
+
+    <color name="black">#000000</color>
+    <color name="navyBlueDark">#070b14</color>
+    <color name="navyBlueLight">#172b44</color>
+    <color name="greenBlue">#60b2c0</color>
+    <color name="rose">#e31754</color>
+    <color name="silverGray">#55616f</color>
+    <color name="skin">#e1c488</color>
+
+
+    -->
+
+
+</resources>

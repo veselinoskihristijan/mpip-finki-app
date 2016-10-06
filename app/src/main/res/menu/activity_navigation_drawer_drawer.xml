@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <menu>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_studies"
+            android:icon="@drawable/studies_icon"
+            android:title="Студии" />
+        <item
+            android:id="@+id/nav_teaching_staff"
+            android:icon="@drawable/graduate_icon"
+            android:title="Кадар" />
+        <item
+            android:id="@+id/nav_subjects"
+            android:icon="@drawable/book_icon"
+            android:title="Предмети" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/faculty_icon"
+            android:title="За факултетот" />
+    </group>
+
+
+
+    <item android:title="Мои работи">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_subjects"
+            android:icon="@drawable/book_icon"
+            android:title="Мои предмети" />
+        <item
+            android:id="@+id/nav_my_schedule"
+            android:icon="@drawable/calendar_icon"
+            android:title="Мој распоред" />
+        <item
+            android:id="@+id/nav__my_consultations"
+            android:icon="@drawable/graduate_icon"
+            android:title="Мои консултации" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/notebook_icon"
+            android:title="Мои белешки" />
+    </group>
+        </menu>
+    </item>
+
+    <item android:title="Социјални врски">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/hands_icon"
+                android:title="Сподели" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/trophy_icon"
+                android:title="Оцени" />
+        </menu>
+    </item>
+
+</menu>

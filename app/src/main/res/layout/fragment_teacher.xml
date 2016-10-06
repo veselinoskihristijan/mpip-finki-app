@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:background="@color/colorFragment"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/staffImage"
+        android:src="@drawable/gjorgji_madzarov"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:textColor="@color/vezbi"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Име"
+        android:gravity="center"
+        android:id="@+id/staffFirstName"
+        android:layout_below="@+id/staffImage" />
+
+    <TextView
+        android:textColor="@color/vezbi"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Презиме"
+        android:gravity="center"
+        android:id="@+id/staffLastName"
+        android:layout_below="@+id/staffFirstName" />
+
+</RelativeLayout>

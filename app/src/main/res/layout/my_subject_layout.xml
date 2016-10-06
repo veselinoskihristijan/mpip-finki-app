@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:padding="16dp" android:background="#fff">
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:text="Веројатност и статистика"
+        android:id="@+id/my_subject_name"
+        android:layout_toLeftOf="@+id/delete_subject_icon"
+        android:layout_toStartOf="@+id/delete_subject_icon" />
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/remove"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/delete_subject_icon"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="Задолжителен"
+        android:id="@+id/my_subject_type_name"
+        android:layout_below="@+id/my_subject_name"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

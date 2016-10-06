@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hristijan.tabs2.NoteActivity"
+    tools:showIn="@layout/activity_note">
+
+
+    <ScrollView
+        android:id="@+id/note_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/note_title_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <EditText
+                    android:background="@drawable/event_frame_home"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:id="@+id/note_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prompt_note_title"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/note_text"
+                    android:background="#ffffff"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/prompt_note_text"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:gravity="top"
+                    android:singleLine="true" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--
+
+    <EditText
+        android:background="@drawable/event_frame_home"
+        android:textColor="@color/black"
+        android:padding="@dimen/location_and_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="Наслов"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:padding="@dimen/location_and_time"
+        android:background="#ffffff"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+        android:id="@+id/editText2"
+        android:gravity="top"
+        android:layout_below="@+id/editText" />
+        -->
+</RelativeLayout>

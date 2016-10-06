@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:background="#fff">
+
+    <TextView
+        android:paddingTop="16dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:text="Потврда"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/my_note_title"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/doneButton"
+        android:layout_toLeftOf="@+id/doneButton" />
+
+    <TextView
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Да се земе потврда од факултет!"
+        android:id="@+id/my_note_content"
+        android:textColor="@color/black"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_below="@+id/my_note_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/my_note_title"
+        android:layout_alignEnd="@+id/my_note_title" />
+
+    <TextView
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="07/31/2016"
+        android:id="@+id/my_note_datetime"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/my_note_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:padding="16dp"
+        android:src="@drawable/not_checked"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:id="@+id/doneButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
